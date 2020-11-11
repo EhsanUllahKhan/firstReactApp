@@ -9,7 +9,7 @@ import React, { Fragment } from "react";
 import Navbar from "./Pages/MainHeader/Index"
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import HomePage from './Pages/Home/Index';
-import Careers from './Pages/Careers/Index';
+import Career from './Pages/Career/Index';
 
 
 function App() {
@@ -26,7 +26,7 @@ function App() {
             <Route exact path='/services' component={Services} />
             <Route exact path='/testimonials' component={Testimonials} />
             <Route exact path='/contactUs' component={ContactUs} />
-            <Route exact path='/careers' component={Careers} />
+            <Route exact path='/career' component={Career} />
           </Switch>
 
           <Footer />

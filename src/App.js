@@ -3,6 +3,7 @@ import Services from './Pages/Services/Services';
 import Clients from './Pages/Clients/Index';
 import Testimonials from "./Pages/Testimonials/Index";
 import ContactUs from "./Pages/ContactUs/Index";
+import ContactUsComponents from "./Pages/ContactUs/ContactUsComponents/ContactUsComponents";
 import Footer from "./Pages/Footer/Index"
 import Hero from "./Pages/Hero/Index";
 import React, { Fragment } from "react";
@@ -29,6 +30,7 @@ function App() {
             <Route exact path='/career' component={Career} />
           </Switch>
 
+          <ContactUsComponents />
           <Footer />
         </Fragment>
       </Router>

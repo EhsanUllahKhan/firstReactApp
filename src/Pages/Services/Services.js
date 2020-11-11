@@ -1,9 +1,13 @@
 import React from "react";
+import HeroShared from "../HeroShared/Index.js";
 import ServicesComponents from "./ServicesComponents/ServicesComponents.js";
 
 const Services = () => {
     return (
-        <ServicesComponents />
+        <>
+            <HeroShared name="Services" />
+            <ServicesComponents />
+        </>
     );
 }
 

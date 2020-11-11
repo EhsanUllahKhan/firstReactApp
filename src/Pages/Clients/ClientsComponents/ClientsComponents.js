@@ -1,5 +1,5 @@
 import React from "react"
-import Header from "../../Services/ServicesComponents/Header/Header";
+import Header from "../ClientsComponents/Header/Header";
 import Clients from "./Clients/Clients"
 
 const ClientsComponents = () => {

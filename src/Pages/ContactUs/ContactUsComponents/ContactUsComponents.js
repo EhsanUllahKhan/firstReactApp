@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "../../Services/ServicesComponents/Header/Header";
+import Header from "./Header/Header";
 import ContactUs from "./ContactUs/ContactUs"
 
 const ContactUsComponents = () => {

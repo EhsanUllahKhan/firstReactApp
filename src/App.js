@@ -2,7 +2,8 @@ import About from './Pages/About/About';
 import Services from './Pages/Services/Services';
 import Clients from './Pages/Clients/Index';
 import Testimonials from "./Pages/Testimonials/Index";
-import ContactUs from "./Pages/ContactUs/Index"
+import ContactUs from "./Pages/ContactUs/Index";
+import Hero from "./Pages/Hero/Index";
 import React, { Fragment } from "react";
 import Navbar from "./Pages/MainHeader/Index"
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
@@ -15,6 +16,7 @@ function App() {
 
         <Fragment>
           <Navbar />
+          <Hero />
           <Switch>
             <Route exact path='/' component={About} />
             <Route exact path='/services' component={Services} />

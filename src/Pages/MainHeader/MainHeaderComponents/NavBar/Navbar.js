@@ -1,15 +1,16 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
     return (
-        <nav id="nav-menu-container" style={{ background: "#000" }}>
+        <nav id="nav-menu-container" >
             <ul className="nav-menu">
                 <li className="menu-active"><a href="https://www.capregsoft.com">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="career.html">Career</a></li>
-
+                <li><Link to="/">About Us</Link></li>
+                <li><Link to="/services">Services</Link></li>
+                <li><Link to="/contactUs">Contact</Link></li>
+                <li><Link to="/career">Career</Link></li>
+`
             </ul>
         </nav>
 
